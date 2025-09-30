@@ -1,0 +1,18 @@
+PLACEHOLDER IMAGES CREATED
+
+The empty .jpg files in this folder are placeholders. Replace them with your actual images:
+
+HERO FOLDER:
+- hero-background.jpg → Your main hero section background image
+
+GALLERY FOLDER:
+- bible-scripture.jpg → Photo of Bible with Joshua scripture
+- team-with-jericho.jpg → Photo of team with Jericho the wolf dog (will be displayed larger)
+- community-service.jpg → Photo of community service work
+- jericho-before.jpg → Photo of Jericho before grooming
+- team-building-trampoline.jpg → Photo of team building trampoline
+- jericho-after.jpg → Photo of Jericho after grooming
+
+IMPORTANT: Make sure your replacement images have the exact same filenames as listed above!
+
+Delete this file once you've added your real images.

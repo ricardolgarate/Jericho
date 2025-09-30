@@ -12,40 +12,40 @@ interface Photo {
 const photos: Photo[] = [
   {
     id: 1,
-    src: "https://images.pexels.com/photos/7551659/pexels-photo-7551659.jpeg?auto=compress&cs=tinysrgb&w=600",
-    alt: "Bible with Joshua scripture",
-    description: "Bible open to Joshua 5:5-7:13, showing the foundational scripture for The Jericho Project"
+    src: "/images/gallery/bible-scripture.jpg",
+    alt: "Annotated Bible with Joshua scripture",
+    description: "Bible open to Joshua with annotations, showing the foundational scripture for The Jericho Project"
   },
   {
     id: 2,
-    src: "https://images.pexels.com/photos/8926554/pexels-photo-8926554.jpeg?auto=compress&cs=tinysrgb&w=800",
-    alt: "Team with Jericho the wolf dog",
-    description: "Luke Haglund, Loraina Merritt, and Kelli French spending time with Jericho during our break",
+    src: "/images/gallery/team-with-jericho.jpg",
+    alt: "Loraina and Sebastian with Jericho",
+    description: "Loraina and Sebastian bonding with Jericho during our service trip break",
     isLarge: true
   },
   {
     id: 3,
-    src: "https://images.pexels.com/photos/7551618/pexels-photo-7551618.jpeg?auto=compress&cs=tinysrgb&w=600",
-    alt: "Community service work",
-    description: "Van Gogh team working together to clear land and move debris for the family"
+    src: "/images/gallery/community-service.jpg",
+    alt: "Van Gogh team members",
+    description: "The Van Gogh team members during our service trip to rural North Carolina"
   },
   {
     id: 4,
-    src: "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600",
-    alt: "Jericho before grooming",
-    description: "Jericho with his overgrown coat, showing his striking heterochromia eyes - one gold, one blue"
+    src: "/images/gallery/jericho-before.jpg",
+    alt: "Jericho close-up with heterochromia",
+    description: "A close-up of Jericho showing his striking heterochromia eyes - one gold, one blue"
   },
   {
     id: 5,
-    src: "https://images.pexels.com/photos/7551656/pexels-photo-7551656.jpeg?auto=compress&cs=tinysrgb&w=600",
-    alt: "Team building trampoline",
-    description: "HPUMC team constructing a trampoline for the three children of the family we served"
+    src: "/images/gallery/team-building-trampoline.jpg",
+    alt: "Sebastian and Luke with Jericho",
+    description: "Sebastian and Luke spending quality time with Jericho during our service work"
   },
   {
     id: 6,
-    src: "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600",
-    alt: "Jericho after grooming",
-    description: "Jericho completely transformed after over an hour of brushing and grooming by our team"
+    src: "/images/gallery/jericho-after.jpg",
+    alt: "Jericho with heterochromia",
+    description: "Another beautiful shot of Jericho, showcasing his unique heterochromia and gentle nature"
   }
 ];
 
@@ -141,7 +141,7 @@ function App() {
         <div 
           className="absolute inset-0 opacity-30"
           style={{
-            backgroundImage: `url('https://images.pexels.com/photos/7551659/pexels-photo-7551659.jpeg?auto=compress&cs=tinysrgb&w=1600')`,
+            backgroundImage: `url('/images/hero/hero-background.jpg')`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}
