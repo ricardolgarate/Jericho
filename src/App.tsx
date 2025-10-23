@@ -136,7 +136,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900">
+      <section id="hero" className="min-h-screen flex items-center justify-center relative bg-gradient-to-br from-blue-900 via-blue-800 to-slate-900 pt-24">
         <div className="absolute inset-0 bg-black/20"></div>
         <div 
           className="absolute inset-0 opacity-30"
@@ -147,7 +147,7 @@ function App() {
           }}
         ></div>
         
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6 pt-8">
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6 py-8">
           <div className="mb-8">
             <div className="w-24 h-24 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 border border-white/20">
               <Heart className="w-14 h-14 text-white" />
