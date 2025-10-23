@@ -143,14 +143,14 @@ function App() {
           style={{
             backgroundImage: `url('/images/hero/hero-background.jpg')`,
             backgroundSize: 'cover',
-            backgroundPosition: 'center'
+            backgroundPosition: '60% center'
           }}
         ></div>
         
-        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6">
+        <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6 pt-8">
           <div className="mb-8">
-            <div className="w-20 h-20 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 border border-white/20">
-              <Heart className="w-12 h-12 text-white" />
+            <div className="w-24 h-24 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 border border-white/20">
+              <Heart className="w-14 h-14 text-white" />
             </div>
           </div>
           
@@ -196,7 +196,7 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">Our Story</h2>
-            <p className="text-xl text-slate-600">A journal entry from June 18th, 2025</p>
+            <p className="text-xl text-slate-600">A journal entry of June 18th, 2025</p>
           </div>
           
           <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-slate-100">
@@ -220,12 +220,10 @@ function App() {
                 approached him anyway.
               </p>
               
-              <blockquote className="border-l-4 border-yellow-500 bg-yellow-50 p-6 rounded-r-2xl my-8">
-                <p className="text-lg text-yellow-800 italic">
-                  "Jericho immediately greeted us with love and excitement. His eyes were striking; 
-                  one gold, one blue (heterochromia)."
-                </p>
-              </blockquote>
+              <p className="text-lg leading-relaxed text-slate-700">
+                Jericho immediately greeted us with love and excitement. His eyes were striking; 
+                one gold, one blue (heterochromia).
+              </p>
               
               <p className="text-lg leading-relaxed text-slate-700">
                 We played with him for a short while before continuing on with our work. We used weed whackers 
@@ -310,32 +308,28 @@ function App() {
                   <h4 className="font-bold text-yellow-400 mb-2">The First Obstacle</h4>
                   <p className="text-blue-100">For the Israelites, Jericho was their first great obstacle. For us, finding Jericho a home was ours.</p>
                 </div>
+                <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm">
+                  <h4 className="font-bold text-yellow-400 mb-2">Intricate Obstacle</h4>
+                  <p className="text-blue-100 mb-3">
+                    The city was heavily fortified, difficult to defeat by ordinary means. It was seemingly 
+                    impossible for the Israelites to conquer.
+                  </p>
+                  <p className="text-yellow-200 font-medium">
+                    Our team spans multiple universities and schools; we must navigate conflicting schedules, 
+                    long travel distances, and overcome assumptions about wolf dog adoption.
+                  </p>
+                </div>
+                <div className="bg-white/10 p-4 rounded-xl backdrop-blur-sm">
+                  <h4 className="font-bold text-yellow-400 mb-2">Limited Skill, But God is With Us</h4>
+                  <p className="text-blue-100 mb-3">
+                    Only around 40,000 Israelites were chosen to fight, less than 7% of them. They were not a 
+                    trained army. Through God's guidance, they succeeded!
+                  </p>
+                  <p className="text-yellow-200 font-medium">
+                    We are a small group of inexperienced teenagers. But with God's guidance at our core, we can succeed!
+                  </p>
+                </div>
               </div>
-            </div>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl shadow-lg p-8 border border-slate-100">
-              <h4 className="text-xl font-bold text-slate-800 mb-4">Intricate Obstacle</h4>
-              <p className="text-slate-700 mb-4">
-                The city was heavily fortified, difficult to defeat by ordinary means. It was seemingly 
-                impossible for the Israelites to conquer.
-              </p>
-              <p className="text-blue-600 font-medium">
-                Our team spans multiple universities and schools; we must navigate conflicting schedules, 
-                long travel distances, and overcome assumptions about wolf dog adoption.
-              </p>
-            </div>
-            
-            <div className="bg-green-50 rounded-2xl shadow-lg p-8 border border-green-200">
-              <h4 className="text-xl font-bold text-green-800 mb-4">Limited Skill, But God is With Us</h4>
-              <p className="text-green-700 mb-4">
-                Only around 40,000 Israelites were chosen to fight, less than 7% of them. They were not a 
-                trained army. Through God's guidance, they succeeded!
-              </p>
-              <p className="text-green-600 font-medium">
-                We are a small group of inexperienced teenagers. But with God's guidance at our core, we can succeed!
-              </p>
             </div>
           </div>
         </div>
@@ -437,7 +431,7 @@ function App() {
       </section>
 
       {/* Quotes Section */}
-      <section id="quotes" className="py-20 px-6">
+      <section id="quotes" className="py-20 px-6 pb-32">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">Reflections</h2>
