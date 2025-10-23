@@ -143,7 +143,7 @@ function App() {
           style={{
             backgroundImage: `url('/images/hero/hero-background.jpg')`,
             backgroundSize: 'cover',
-            backgroundPosition: '60% center'
+            backgroundPosition: '35% 35%'
           }}
         ></div>
         
@@ -277,7 +277,7 @@ function App() {
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="bg-white rounded-2xl shadow-lg p-8 border border-slate-100">
               <h3 className="text-2xl font-bold text-slate-800 mb-6 flex items-center">
-                <Star className="w-6 h-6 text-yellow-500 mr-2" />
+                <span className="text-2xl mr-2">📖✝️</span>
                 The Biblical Story
               </h3>
               <div className="prose prose-slate">
@@ -296,7 +296,7 @@ function App() {
             
             <div className="bg-blue-600 rounded-2xl shadow-lg p-8 text-white">
               <h3 className="text-2xl font-bold mb-6 flex items-center">
-                <Heart className="w-6 h-6 text-yellow-400 mr-2" />
+                <span className="text-2xl mr-2">🔗</span>
                 Our Connection
               </h3>
               <div className="space-y-4">
