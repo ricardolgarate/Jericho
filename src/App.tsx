@@ -251,13 +251,13 @@ function App() {
                 </p>
               </div>
               
-              <p className="text-lg leading-relaxed text-slate-700">
+              <p className="text-lg leading-relaxed text-slate-700 mb-8">
                 On the ride back, I reflected. It was moving to see the resilience, "open arms," and care, 
                 despite their losses: houses, land, animals, and even loved ones. While we helped change others' 
                 lives, we found ourselves being changed too.
               </p>
               
-              <p className="text-xl leading-relaxed text-slate-800 font-medium bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-2xl border border-blue-200">
+              <p className="text-xl leading-relaxed text-slate-800 font-medium bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-2xl border border-blue-200 mt-8">
                 That day, Jericho and the loving family became a symbol of the first step in a journey and 
                 calling: to create a bridge for students to serve, grow, and create a better world.
               </p>
