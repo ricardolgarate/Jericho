@@ -196,23 +196,23 @@ function App() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">Our Story</h2>
-            <p className="text-xl text-slate-600">A journal entry of June 18th, 2025</p>
+            <p className="text-lg md:text-xl text-slate-600">A journal entry of June 18th, 2025</p>
           </div>
           
           <div className="bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-slate-100">
-            <div className="prose prose-lg prose-slate max-w-none">
-              <div className="mb-8 p-6 bg-blue-50 rounded-2xl border-l-4 border-blue-500">
-                <p className="text-blue-800 font-medium mb-2">Wednesday, June 18th, 2025</p>
-                <p className="text-slate-700 italic">Highland Park United Methodist Church Service Trip - Van Gogh Team</p>
+            <div className="prose prose-slate md:prose-lg max-w-none">
+              <div className="mb-8 p-4 md:p-6 bg-blue-50 rounded-2xl border-l-4 border-blue-500">
+                <p className="text-sm md:text-base text-blue-800 font-medium mb-2">Wednesday, June 18th, 2025</p>
+                <p className="text-sm md:text-base text-slate-700 italic">Highland Park United Methodist Church Service Trip - Van Gogh Team</p>
               </div>
               
-              <p className="text-lg leading-relaxed text-slate-700">
+              <p className="text-base md:text-lg leading-relaxed text-slate-700">
                 In June 2025, I was on a service trip with the Highland Park United Methodist Church (HPUMC) 
                 for hurricane relief in rural Appalachia, North Carolina. Our church was split into multiple 
                 vans. Mine was nicknamed <strong className="text-blue-600">'Van Gogh.'</strong>
               </p>
               
-              <p className="text-lg leading-relaxed text-slate-700">
+              <p className="text-base md:text-lg leading-relaxed text-slate-700">
                 On Wednesday, June 18th, our van was sent to help the home of a family with three kids and 
                 three dogs. We were told they had a wolf dog named <strong className="text-blue-600">Jericho</strong>. 
                 He had an overgrown coat, which was sweltering in the summer sun, and was tied up so he wouldn't 
@@ -220,44 +220,44 @@ function App() {
                 approached him anyway.
               </p>
               
-              <p className="text-lg leading-relaxed text-slate-700">
+              <p className="text-base md:text-lg leading-relaxed text-slate-700">
                 Jericho immediately greeted us with love and excitement. His eyes were striking; 
                 one gold, one blue (heterochromia).
               </p>
               
-              <p className="text-lg leading-relaxed text-slate-700">
+              <p className="text-base md:text-lg leading-relaxed text-slate-700">
                 We played with him for a short while before continuing on with our work. We used weed whackers 
                 to clean up the land, moved rocks and wood, and moved rusted metal, all while Jericho sat 
                 outside in his little igloo-shaped doghouse.
               </p>
               
-              <p className="text-lg leading-relaxed text-slate-700">
+              <p className="text-base md:text-lg leading-relaxed text-slate-700">
                 When break came, a group of us went straight to Jericho: <strong>Luke Haglund</strong>, 
                 <strong> Loraina Merritt</strong>, and <strong>Kelli French</strong>. He had an energetic 
                 and radiating demeanor. We spent over an hour brushing him out, playing with him, and making 
                 him look clean and well-groomed. By the end, he had completely transformed.
               </p>
               
-              <p className="text-lg leading-relaxed text-slate-700">
+              <p className="text-base md:text-lg leading-relaxed text-slate-700">
                 That day, we also got to know the beautiful and caring family, built a trampoline for the 
                 kids, and shared meals with them. Before we left, the family told us the work we had done 
                 would have taken them months.
               </p>
               
-              <div className="bg-green-50 p-6 rounded-2xl border-l-4 border-green-500 my-8">
-                <p className="text-lg leading-relaxed text-green-800 font-medium">
+              <div className="bg-green-50 p-4 md:p-6 rounded-2xl border-l-4 border-green-500 my-8">
+                <p className="text-base md:text-lg leading-relaxed text-green-800 font-medium">
                   What impacted me most was not simply the work, but the relationships formed with the family, 
                   my friends, Jericho, and even our Lord and Savior.
                 </p>
               </div>
               
-              <p className="text-lg leading-relaxed text-slate-700 mb-8">
+              <p className="text-base md:text-lg leading-relaxed text-slate-700 mb-8">
                 On the ride back, I reflected. It was moving to see the resilience, "open arms," and care, 
                 despite their losses: houses, land, animals, and even loved ones. While we helped change others' 
                 lives, we found ourselves being changed too.
               </p>
               
-              <p className="text-xl leading-relaxed text-slate-800 font-medium bg-gradient-to-r from-blue-50 to-purple-50 p-6 rounded-2xl border border-blue-200 mt-8">
+              <p className="text-lg md:text-xl leading-relaxed text-slate-800 font-medium bg-gradient-to-r from-blue-50 to-purple-50 p-4 md:p-6 rounded-2xl border border-blue-200 mt-8">
                 That day, Jericho and the loving family became a symbol of the first step in a journey and 
                 calling: to create a bridge for students to serve, grow, and create a better world.
               </p>
