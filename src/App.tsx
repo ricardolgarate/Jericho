@@ -150,7 +150,11 @@ function App() {
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-6 py-8">
           <div className="mb-8">
             <div className="w-24 h-24 bg-white/10 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 border border-white/20">
-              <Heart className="w-14 h-14 text-white" />
+              <img
+                src="/images/gallery/Jericho.png"
+                alt="Jericho"
+                className="w-14 h-14 object-contain"
+              />
             </div>
           </div>
           
