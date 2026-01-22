@@ -153,7 +153,7 @@ function App() {
               <img
                 src="/images/gallery/Jericho.png"
                 alt="Jericho"
-                className="w-14 h-14 object-contain"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
